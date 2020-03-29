@@ -1,0 +1,16 @@
+{
+    "outtmpl": "C:\\Users\\Lisa\\Downloads\\Youtube\\%(title)s.%(ext)s",
+    "format": "bestvideo[height<=1080]+bestaudio/best[height<=1080]",
+    "datebefore": "20100102",
+    "dateafter": "20200311",
+
+    "ignoreerrors": true,
+    "playlistrandom": false,
+    "quiet": true,
+
+    "postprocessor": [{
+        "key": "FFmpegExtractAudio",
+        "prefercodec": "mp3",
+        "preferquality": "192"
+    }]
+}
